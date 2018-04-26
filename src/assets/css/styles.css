@@ -1,0 +1,25 @@
+.margin-bottom {
+    margin-bottom: 20px;
+}
+.employee-table {
+    position: relative;
+}
+.employee-table th {
+    white-space: nowrap;
+}
+.employee-table th:hover .sort-btn {
+    visibility: visible;
+}
+.sort-btn {
+    border: 0;
+    visibility: hidden;
+    background: transparent;
+    font-size: 10px;
+}
+
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+}
+.ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+}
